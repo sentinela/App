@@ -1,0 +1,66 @@
+@import '../theme';
+
+header {
+  @include css3-prefix('display', 'flex');
+  @include css3-prefix('justify-content', 'space-between;');
+  @include flex(1 100%);
+  background: #FFF;
+  color: #333;
+  padding: 15px;
+}
+
+footer {
+  @include css3-prefix('display', 'flex');
+  @include css3-prefix('justify-content', 'space-between;');
+  @include flex(1 100%);
+  background: #FFF;
+  color: #333;
+  padding: 15px;
+}
+
+.card {
+  background: #FFF;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 1px 1px 2px 0 $shadow-color;
+  margin-bottom: 15px;
+  width: 400px;
+  padding: 20px;
+}
+
+button {
+  @include border-radius(40px);
+  background: #FFF;
+  border: 2px solid $success;
+  color: $success;
+  cursor: pointer;
+  outline: none;
+  height: 40px;
+  width: 130px;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  &:hover {
+    color: #FFF;
+    background: $success;
+  }
+}
+
+.container {
+  @include css3-prefix('display', 'flex');
+  flex-flow: row wrap; // flex-direction: row; flex-wrap: wrap
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .container {
+    justify-content: space-around;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
