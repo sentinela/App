@@ -9,6 +9,12 @@ header {
   padding: 15px;
 }
 
+.home {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 footer {
   @include css3-prefix('display', 'flex');
   @include css3-prefix('justify-content', 'space-between;');

@@ -30,10 +30,10 @@ class Home extends Component {
           <button>Feedback</button>
           <button>Filtrar</button>
         </header>
-        <section className="container">
+        <main className="container">
           {this.renderText()}
           {card(this.props.spending)}
-        </section>
+        </main>
         <footer>
           <button>
             <Link to="/perfil" className="btn btn-sm btn-danger">Meu perfil</Link>
