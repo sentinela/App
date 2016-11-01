@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router';
 import * as HomeActions from './HomeActions';
 import './Home.scss';
+import logo from '../../assets/images/logo.png';
+// <img src={logo} alt="Logo" />
 
 const card = spending => spending.map((s, k) =>
   <div className="card" key={k}>
