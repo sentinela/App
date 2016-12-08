@@ -5,6 +5,6 @@ import Main from './containers/Main';
 
 export default (
   <Route path="/" component={Main}>
-    <Route path="/app" component={App} />
+    <IndexRoute component={App} />
   </Route>
 );

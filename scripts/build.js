@@ -5,20 +5,20 @@ process.env.NODE_ENV = 'production';
 // if this file is missing. dotenv will never modify any environment variables
 // that have already been set.
 // https://github.com/motdotla/dotenv
-require('dotenv').config({silent: true});
+require('dotenv').config({ silent: true });
 
-var chalk = require('chalk');
-var fs = require('fs-extra');
-var path = require('path');
-var filesize = require('filesize');
-var gzipSize = require('gzip-size').sync;
-var rimrafSync = require('rimraf').sync;
-var webpack = require('webpack');
-var config = require('../config/webpack.config.prod');
-var paths = require('../config/paths');
-var checkRequiredFiles = require('react-dev-utils/checkRequiredFiles');
-var recursive = require('recursive-readdir');
-var stripAnsi = require('strip-ansi');
+const chalk = require('chalk');
+const fs = require('fs-extra');
+const path = require('path');
+const filesize = require('filesize');
+const gzipSize = require('gzip-size').sync;
+const rimrafSync = require('rimraf').sync;
+const webpack = require('webpack');
+const config = require('../config/webpack.config.prod');
+const paths = require('../config/paths');
+const checkRequiredFiles = require('react-dev-utils/checkRequiredFiles');
+const recursive = require('recursive-readdir');
+const stripAnsi = require('strip-ansi');
 
 // Warn and crash if required files are missing
 if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) {
