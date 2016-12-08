@@ -1,0 +1,18 @@
+@primary: #3498db;
+@secondary: #FFF;
+
+@screenTablet: 	768px;
+@screenDesktop: 992px;
+@screenLarge:   1200px;
+
+@desktop:           ~"only screen and (min-width: @{screenDesktop})";
+@tablet:            ~"only screen and (min-width: @{screenTablet}) and (max-width: @{screenDesktop})";
+@tablet-desktop:    ~"only screen and (min-width: @{screenTablet})";
+@mobile:            ~"only screen and (max-width: @{screenTablet})";
+@notDesktop:        ~"only screen and (max-width: @{screenDesktop})";
+
+@base-margin: 15px;
+
+@font-primary: 'Omnes';
+
+// .bg-img(@img) { background-image:url("../images/@{img}"); }
