@@ -1,0 +1,669 @@
+{
+   "10":[
+      {
+         "credor":"JANAINA LUCIA FEIJO",
+         "cargo":"CONSELHEIRO TUTELAR",
+         "valor":261.2
+      },
+      {
+         "credor":"JEAN PIERY PEDROSO TORMAN",
+         "cargo":"PROCURADOR GERAL DO MUNICIPIO",
+         "valor":653.03
+      },
+      {
+         "credor":"JOAO BARBOSA DOS SANTOS",
+         "cargo":"MOTORISTA",
+         "valor":90.7
+      },
+      {
+         "credor":"LUCIANO GERHARDT",
+         "cargo":"SECRETÁRIO MUNICIPAL",
+         "valor":653.03
+      },
+      {
+         "credor":"LUIS ANTONIO CUNHA",
+         "cargo":"MOTORISTA",
+         "valor":261.2
+      },
+      {
+         "credor":"LUIZ ARIANO ZAFFALON",
+         "cargo":"SECRETÁRIO MUNICIPAL",
+         "valor":653.03
+      },
+      {
+         "credor":"MARCO AURELIO SOARES ALBA",
+         "cargo":"PREFEITO",
+         "valor":1632.56
+      },
+      {
+         "credor":"WESMAN DOS SANTOS PEREIRA",
+         "cargo":"MOTORISTA - SAMU",
+         "valor":90.7
+      },
+      {
+         "credor":"CAROLINA CAMARGO DE MORAES MICHELSEN",
+         "cargo":"",
+         "valor":72.65
+      },
+      {
+         "credor":"MARIA CRISTINA DA ROSA WEXEL",
+         "cargo":"CONSELHEIRO FISCAL",
+         "valor":3196.6
+      }
+   ],
+   "11":[
+      {
+         "credor":"ADAO DE CASTRO JUNIOR",
+         "cargo":"SECRETÁRIO MUNICIPAL",
+         "valor":653.03
+      },
+      {
+         "credor":"ANDRE LUIZ PINHEIRO",
+         "cargo":"MOTORISTA",
+         "valor":87.07
+      },
+      {
+         "credor":"DAVI KELLER SEVERGNINI",
+         "cargo":"SECRETÁRIO MUNICIPAL",
+         "valor":653.03
+      },
+      {
+         "credor":"JOAO BARBOSA DOS SANTOS",
+         "cargo":"MOTORISTA",
+         "valor":90.7
+      },
+      {
+         "credor":"LUCIANO GERHARDT",
+         "cargo":"SECRETÁRIO MUNICIPAL",
+         "valor":653.03
+      },
+      {
+         "credor":"MARCO AURELIO SOARES ALBA",
+         "cargo":"PREFEITO",
+         "valor":2720.93
+      },
+      {
+         "credor":"SONIA MARA RAHTS RODRIGUES",
+         "cargo":"CONSELHEIRO TUTELAR",
+         "valor":87.07
+      }
+   ],
+   "02":[
+      {
+         "credor":"ALEXSANDRO LIMA VIEIRA",
+         "cargo":"PROCURADOR JURIDICO",
+         "valor":626.88
+      },
+      {
+         "credor":"ALEXSANDRO SOUZA ESPINDOLA",
+         "cargo":"MOTORISTA",
+         "valor":114.92
+      },
+      {
+         "credor":"ANDRE LUIZ PINHEIRO",
+         "cargo":"MOTORISTA",
+         "valor":344.77
+      },
+      {
+         "credor":"CHARLES OLIVEIRA DE CASTRO",
+         "cargo":"CONSELHEIRO TUTELAR",
+         "valor":114.92
+      },
+      {
+         "credor":"DAVI KELLER SEVERGNINI",
+         "cargo":"SECRETÁRIO MUNICIPAL",
+         "valor":626.88
+      },
+      {
+         "credor":"FRANCISCO DE SOUZA PINHO",
+         "cargo":"VICE-PREFEITO",
+         "valor":417.92
+      },
+      {
+         "credor":"CARLITO NICOLAIT DE MATTOS",
+         "cargo":"",
+         "valor":4023.68
+      },
+      {
+         "credor":"CRISTIANO FABIANO QUADROS",
+         "cargo":"",
+         "valor":290.6
+      },
+      {
+         "credor":"EVANDRO RAMOS SOARES",
+         "cargo":"",
+         "valor":4023.68
+      },
+      {
+         "credor":"MARCIO SOUZA DA SILVA",
+         "cargo":"",
+         "valor":4023.68
+      },
+      {
+         "credor":"NADIR FLORES DA ROCHA",
+         "cargo":"",
+         "valor":894.15
+      },
+      {
+         "credor":"PEDRO JUAREZ DE SOUZA",
+         "cargo":"",
+         "valor":4023.68
+      },
+      {
+         "credor":"FERNANDA BATISTA DE FRAGA NASCIMENTO",
+         "cargo":"DIRETORA PRESIDENTE",
+         "valor":626.87
+      }
+   ],
+   "05":[
+      {
+         "credor":"ALEXSANDRO LIMA VIEIRA",
+         "cargo":"CONSELHEIRO",
+         "valor":626.88
+      },
+      {
+         "credor":"ALINE DE ANDRADES TOSSI",
+         "cargo":"OFICIAL DE GABINETE II",
+         "valor":3275.41
+      },
+      {
+         "credor":"IONARA PFEIFER",
+         "cargo":"TECNICO EM ENFERMAGEM - S",
+         "valor":87.07
+      },
+      {
+         "credor":"JANILDE NASCIMENTO LUIZ",
+         "cargo":"TECNICO DE ENFERMAGEM",
+         "valor":87.07
+      },
+      {
+         "credor":"LUIS ALBERTO DOS REIS",
+         "cargo":"MOTORISTA",
+         "valor":87.07
+      },
+      {
+         "credor":"MARCO AURELIO SOARES ALBA",
+         "cargo":"PREFEITO",
+         "valor":1044.8
+      },
+      {
+         "credor":"MARGARETE TAVARES KAISER",
+         "cargo":"NUTRICIONISTA",
+         "valor":861.96
+      },
+      {
+         "credor":"SILVIO BARBOSA DOS REIS",
+         "cargo":"SECRETÁRIO MUNICIPAL",
+         "valor":522.4
+      },
+      {
+         "credor":"WESMAN DOS SANTOS PEREIRA",
+         "cargo":"MOTORISTA",
+         "valor":87.07
+      },
+      {
+         "credor":"CARLITO NICOLAIT DE MATTOS",
+         "cargo":"",
+         "valor":4023.68
+      },
+      {
+         "credor":"MARCIO SOUZA DA SILVA",
+         "cargo":"",
+         "valor":894.15
+      },
+      {
+         "credor":"SIMONE PIRES DA SILVA MINSKI",
+         "cargo":"",
+         "valor":217.95
+      }
+   ],
+   "06":[
+      {
+         "credor":"ALEXSANDRO LIMA VIEIRA",
+         "cargo":"CONSELHEIRO",
+         "valor":208.96
+      },
+      {
+         "credor":"ANDRE LUIZ PINHEIRO",
+         "cargo":"MOTORISTA",
+         "valor":174.13
+      },
+      {
+         "credor":"ELTON GARSTKA KSSESINSKI",
+         "cargo":"FISCAL TRIBUTARIO",
+         "valor":459.7
+      },
+      {
+         "credor":"IONARA PFEIFER",
+         "cargo":"TECNICO EM ENFERMAGEM - S",
+         "valor":87.07
+      },
+      {
+         "credor":"JOANA GOMES MOTA",
+         "cargo":"ASSISTENTE SOCIAL",
+         "valor":1206.73
+      },
+      {
+         "credor":"JOAO BARBOSA DOS SANTOS",
+         "cargo":"MOTORISTA",
+         "valor":87.07
+      },
+      {
+         "credor":"LUIS ANTONIO CUNHA",
+         "cargo":"MOTORISTA",
+         "valor":174.13
+      },
+      {
+         "credor":"MARCIA ELISA DE SOUZA MELO",
+         "cargo":"ASSISTENTE SOCIAL",
+         "valor":1206.73
+      },
+      {
+         "credor":"MARCO AURELIO SOARES ALBA",
+         "cargo":"PREFEITO",
+         "valor":2612
+      },
+      {
+         "credor":"MARGARETE DA SILVEIRA FARIAS",
+         "cargo":"ASSISTENTE SOCIAL",
+         "valor":1206.73
+      },
+      {
+         "credor":"REGIS FABRICIO CONCEICAO",
+         "cargo":"FISCAL",
+         "valor":459.7
+      },
+      {
+         "credor":"DANIELE DE CAMPOS DOMINGUES VIEGAS CENTENO",
+         "cargo":"",
+         "valor":145.3
+      },
+      {
+         "credor":"LARISSA SOUZA CONSTANTE VILLA VERDE",
+         "cargo":"",
+         "valor":1453
+      },
+      {
+         "credor":"LIGIANE CASSIA FORTUNA PEDROSO",
+         "cargo":"",
+         "valor":145.3
+      }
+   ],
+   "07":[
+      {
+         "credor":"ALEXSANDRO LIMA VIEIRA",
+         "cargo":"CONSELHEIRO",
+         "valor":208.96
+      },
+      {
+         "credor":"ANDRE LUIZ PINHEIRO",
+         "cargo":"MOTORISTA",
+         "valor":174.13
+      },
+      {
+         "credor":"CRISTIANE MOREIRA DA CUNHA",
+         "cargo":"CONSELHEIRO TUTELAR",
+         "valor":229.85
+      },
+      {
+         "credor":"DAVI KELLER SEVERGNINI",
+         "cargo":"SECRETÁRIO MUNICIPAL",
+         "valor":208.96
+      },
+      {
+         "credor":"GREICY KELLI DA SILVEIRA SANTOS",
+         "cargo":"CONSELHEIRO TUTELAR",
+         "valor":174.13
+      },
+      {
+         "credor":"MARCO AURELIO SOARES ALBA",
+         "cargo":"PREFEITO",
+         "valor":1567.2
+      },
+      {
+         "credor":"RITA VIRGINIA BITENCOURT",
+         "cargo":"CHEFE DE SETOR - EXTINTO",
+         "valor":804.48
+      },
+      {
+         "credor":"CAROLINA CAMARGO DE MORAES MICHELSEN",
+         "cargo":"",
+         "valor":145.3
+      },
+      {
+         "credor":"MARIA CRISTINA DA ROSA WEXEL",
+         "cargo":"CONSELHEIRO FISCAL",
+         "valor":217.95
+      }
+   ],
+   "03":[
+      {
+         "credor":"ALEXSANDRO SOUZA ESPINDOLA",
+         "cargo":"MOTORISTA",
+         "valor":87.06
+      },
+      {
+         "credor":"ANDRE LUIZ PINHEIRO",
+         "cargo":"MOTORISTA",
+         "valor":174.13
+      },
+      {
+         "credor":"CHARLES OLIVEIRA DE CASTRO",
+         "cargo":"CONSELHEIRO TUTELAR",
+         "valor":87.06
+      },
+      {
+         "credor":"EMERSON GEOVANI DOS SANTOS BRUM",
+         "cargo":"CONSELHEIRO TUTELAR",
+         "valor":174.13
+      },
+      {
+         "credor":"FILIPE NEGREIROS FERREIRA",
+         "cargo":"MOTORISTA",
+         "valor":87.06
+      },
+      {
+         "credor":"GREICY KELLI DA SILVEIRA SANTOS",
+         "cargo":"CONSELHEIRO TUTELAR",
+         "valor":87.06
+      },
+      {
+         "credor":"LUIS ANTONIO CUNHA",
+         "cargo":"MOTORISTA",
+         "valor":87.06
+      },
+      {
+         "credor":"SONIA MARA RAHTS RODRIGUES",
+         "cargo":"CONSELHEIRO TUTELAR",
+         "valor":174.13
+      },
+      {
+         "credor":"ALEX PEREIRA TAVARES",
+         "cargo":"",
+         "valor":4023.68
+      },
+      {
+         "credor":"DANIELE DE CAMPOS DOMINGUES VIEGAS CENTENO",
+         "cargo":"",
+         "valor":2034.2
+      },
+      {
+         "credor":"EVANDRO RAMOS SOARES",
+         "cargo":"",
+         "valor":4023.68
+      },
+      {
+         "credor":"GERSON ROVISCO OLIVEIRA",
+         "cargo":"",
+         "valor":4023.68
+      },
+      {
+         "credor":"LAIO MARTINS ALLGAYER",
+         "cargo":"",
+         "valor":145.3
+      },
+      {
+         "credor":"LARISSA SOUZA CONSTANTE VILLA VERDE",
+         "cargo":"",
+         "valor":2034.2
+      },
+      {
+         "credor":"LUCIANO DA COSTA RIBEIRO",
+         "cargo":"",
+         "valor":72.65
+      },
+      {
+         "credor":"ROBERTO CARVALHO DE ANDRADE",
+         "cargo":"",
+         "valor":4023.68
+      }
+   ],
+   "08":[
+      {
+         "credor":"ANDRE LUIZ PINHEIRO",
+         "cargo":"MOTORISTA",
+         "valor":87.07
+      },
+      {
+         "credor":"EMERSON GEOVANI DOS SANTOS BRUM",
+         "cargo":"CONSELHEIRO TUTELAR",
+         "valor":87.06
+      },
+      {
+         "credor":"FILIPE NEGREIROS FERREIRA",
+         "cargo":"MOTORISTA",
+         "valor":130.6
+      },
+      {
+         "credor":"JEAN PIERY PEDROSO TORMAN",
+         "cargo":"PROCURADOR GERAL DO MUNICIPIO",
+         "valor":626.88
+      },
+      {
+         "credor":"JOANA GOMES MOTA",
+         "cargo":"ASSISTENTE SOCIAL",
+         "valor":172.39
+      },
+      {
+         "credor":"LUIS ANTONIO CUNHA",
+         "cargo":"MOTORISTA",
+         "valor":130.6
+      },
+      {
+         "credor":"MARILZA PACHECO RAMOS",
+         "cargo":"PROFESSOR - NIVEL V",
+         "valor":87.06
+      },
+      {
+         "credor":"MARINA CAETANO",
+         "cargo":"ASSISTENTE SOCIAL",
+         "valor":1896.29
+      },
+      {
+         "credor":"RITA VIRGINIA BITENCOURT",
+         "cargo":"CHEFE DE SETOR - EXTINTO",
+         "valor":1264.17
+      },
+      {
+         "credor":"CAROLINA CAMARGO DE MORAES MICHELSEN",
+         "cargo":"",
+         "valor":145.3
+      },
+      {
+         "credor":"TAIGUARA FACCINI",
+         "cargo":"",
+         "valor":145.3
+      },
+      {
+         "credor":"THIAGO SEIXAS ALVES",
+         "cargo":"",
+         "valor":2615.4
+      }
+   ],
+   "01":[
+      {
+         "credor":"ANGELA MARIA SANTANA MEDINA",
+         "cargo":"AUX DE ENFERMAGEM",
+         "valor":87.07
+      },
+      {
+         "credor":"CLESIA MICAELE ZIEMANN",
+         "cargo":"ENFERMEIRO - SAMU",
+         "valor":229.85
+      },
+      {
+         "credor":"JOAO BARBOSA DOS SANTOS",
+         "cargo":"MOTORISTA",
+         "valor":87.07
+      },
+      {
+         "credor":"LETICIA DILLE BENEVENUTI",
+         "cargo":"MEDICO - SAMU",
+         "valor":229.85
+      },
+      {
+         "credor":"MARCIO BRAHM CAETANO",
+         "cargo":"MEDICO - SAMU",
+         "valor":229.85
+      },
+      {
+         "credor":"RAFAEL CANDIDO BONHO",
+         "cargo":"MOTORISTA - SAMU",
+         "valor":174.13
+      },
+      {
+         "credor":"RICARDO DE LIMA PORTO",
+         "cargo":"AUXILIAR EXECUTIVO II",
+         "valor":261.2
+      }
+   ],
+   "04":[
+      {
+         "credor":"FRANCISCO DE SOUZA PINHO",
+         "cargo":"VICE-PREFEITO",
+         "valor":2089.6
+      },
+      {
+         "credor":"IRIS CRISTIANE DA SILVA E SILVA",
+         "cargo":"CONSELHEIRO TUTELAR",
+         "valor":522.39
+      },
+      {
+         "credor":"JOAO BARBOSA DOS SANTOS",
+         "cargo":"MOTORISTA",
+         "valor":87.07
+      },
+      {
+         "credor":"MARCO AURELIO SOARES ALBA",
+         "cargo":"PREFEITO",
+         "valor":1567.2
+      },
+      {
+         "credor":"MARILISA DUTRA DIAS GADEA",
+         "cargo":"APOSENTADO - ESPECIAL",
+         "valor":435.32
+      },
+      {
+         "credor":"ROSELIA SILVEIRA DA SILVA NUNES",
+         "cargo":"APOSENTADO POR TEMPO DE S",
+         "valor":435.32
+      },
+      {
+         "credor":"ALAN DOS SANTOS VIEIRA",
+         "cargo":"",
+         "valor":3129.53
+      },
+      {
+         "credor":"ALEX PEREIRA TAVARES",
+         "cargo":"",
+         "valor":3129.53
+      },
+      {
+         "credor":"ALEXSANDER ALMEIDA DE MEDEIROS",
+         "cargo":"",
+         "valor":4023.68
+      },
+      {
+         "credor":"CARLOS GILBERTO NUNES PEREIRA",
+         "cargo":"",
+         "valor":3129.53
+      },
+      {
+         "credor":"CRISTIANO FABIANO QUADROS",
+         "cargo":"",
+         "valor":145.3
+      },
+      {
+         "credor":"DANIELE DE CAMPOS DOMINGUES VIEGAS CENTENO",
+         "cargo":"",
+         "valor":145.3
+      },
+      {
+         "credor":"FREDERICO MEREGALLI PINHO",
+         "cargo":"",
+         "valor":4023.68
+      },
+      {
+         "credor":"GERSON ROVISCO OLIVEIRA",
+         "cargo":"",
+         "valor":3129.53
+      },
+      {
+         "credor":"GIULLIANO ALVES PACHECO",
+         "cargo":"",
+         "valor":363.25
+      },
+      {
+         "credor":"LAIO MARTINS ALLGAYER",
+         "cargo":"",
+         "valor":72.65
+      },
+      {
+         "credor":"LARISSA SOUZA CONSTANTE VILLA VERDE",
+         "cargo":"",
+         "valor":145.3
+      },
+      {
+         "credor":"LECI BERNARDETE RAMOS",
+         "cargo":"",
+         "valor":72.65
+      },
+      {
+         "credor":"LIGIANE CASSIA FORTUNA PEDROSO",
+         "cargo":"",
+         "valor":145.3
+      },
+      {
+         "credor":"MARCIO SOUZA DA SILVA",
+         "cargo":"",
+         "valor":3129.53
+      },
+      {
+         "credor":"MARIBEL DA ROCHA WAGNER",
+         "cargo":"",
+         "valor":4023.68
+      },
+      {
+         "credor":"PEDRO JUAREZ DE SOUZA",
+         "cargo":"",
+         "valor":4023.68
+      },
+      {
+         "credor":"SIMONE PIRES DA SILVA MINSKI",
+         "cargo":"",
+         "valor":145.3
+      },
+      {
+         "credor":"TANRAC MAGALHAES SALDANHA",
+         "cargo":"",
+         "valor":3129.53
+      },
+      {
+         "credor":"THIAGO SEIXAS ALVES",
+         "cargo":"",
+         "valor":72.65
+      },
+      {
+         "credor":"EVANDRO AUGUSTO RUFATTO",
+         "cargo":"Fiscal Ambiental",
+         "valor":2068.68
+      }
+   ],
+   "09":[
+      {
+         "credor":"JOAO BARBOSA DOS SANTOS",
+         "cargo":"MOTORISTA",
+         "valor":90.7
+      },
+      {
+         "credor":"LUCIANO DA COSTA RIBEIRO",
+         "cargo":"",
+         "valor":145.3
+      },
+      {
+         "credor":"SIMONE PIRES DA SILVA MINSKI",
+         "cargo":"",
+         "valor":145.3
+      }
+   ]
+}
