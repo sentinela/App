@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import './styles/App.less';
 import BarChart from '../components/BarChart';
+import './styles/fluidable.less';
 
 class App extends Component {
   static propTypes = {
