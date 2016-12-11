@@ -14,19 +14,18 @@
   max-width: @screenDesktop;
   height: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-
   @media @notDesktop {
     padding: 0 20px;
   }
 }
 
 .title {
-  font-family: @font-primary;
+  font-family: @font-secondary;
   font-size: 20px;
-  font-weight: 600; /* this is not bold.. */
+  font-weight: bold;
   letter-spacing: .5px;
-  margin-left: 25px;
   color: @primary;
 
   @media @mobile {
@@ -63,4 +62,12 @@
 
 .avatar {
 
+}
+
+.city-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  cursor: pointer;
+  margin-left: 40px;
 }

@@ -2,8 +2,8 @@ import React, { Component, PropTypes } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import './styles/App.less';
-import BarChart from '../components/BarChart';
 import './styles/fluidable.less';
+import DailyValueTotal from '../components/DailyValueTotal';
 
 class App extends Component {
   static propTypes = {
@@ -22,8 +22,8 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <div className="col-12 home-chart">
-          <BarChart />
+        <div className="container">
+          <DailyValueTotal />
         </div>
         <Footer />
       </div>
