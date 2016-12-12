@@ -1,0 +1,52 @@
+@import '../../containers/styles/app-styles.less';
+
+.content-cards {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  margin: 20px 0px 50px;
+  .chart-title {
+    margin: 10px 20px 20px 20px;
+  }
+}
+
+.row-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.card {
+  transition: 0.3s;
+  border: 1px solid #edededcc;
+  cursor: pointer;
+  margin: 0px 0px;
+  @media @mobile {
+    width: 100%;
+  }
+  &:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+}
+
+.card-header {
+  width: 100%;
+  min-height: 50px;
+  border-bottom: 2px solid #c9c9c9c9;
+  .title-card {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #515151;
+    font-family: @font-secondary;
+  }
+}
+
+.card-container {
+  padding: 2px 16px;
+
+  .text-describe {
+    color: #676767;
+    font-family: @font-secondary;
+  }
+}
