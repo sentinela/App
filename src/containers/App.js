@@ -11,15 +11,7 @@ class App extends Component {
     children: PropTypes.node,
   }
 
-  componentWillMount() {
-    // if (!this.props.auth.user) {
-    //   browserHistory.push('/login');
-    // }
-    // browserHistory.push('/home');
-  }
-
   render() {
-    // const { children } = this.props;
     return (
       <div>
         <Header />

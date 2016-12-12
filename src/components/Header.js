@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import images from '../utils/images';
 import './styles/Header.less';
 
@@ -20,11 +20,6 @@ const Header = (props) => {
       </div>
     </div>
   );
-};
-
-Header.propTypes = {
-  title: PropTypes.string,
-  userName: PropTypes.string,
 };
 
 export default Header;
