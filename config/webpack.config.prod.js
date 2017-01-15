@@ -123,9 +123,9 @@ module.exports = {
         loaders: [
           'style',
           'css',
-          'less',
           'postcss',
-          ExtractTextPlugin.extract('style', 'css?-autoprefixer!postcss'),
+          'less',
+          // ExtractTextPlugin.extract('style', 'css?-autoprefixer!postcss'),
         ],
       },
       // {
