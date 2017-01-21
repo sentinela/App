@@ -1,17 +1,19 @@
 import React from 'react';
+
 import images from '../utils/images';
+import Dropdown from './Dropdown';
+
 import './styles/Header.less';
 
 const Header = (props) => {
-  const alertSign = () => alert('Em breve você poderá visualizar outras cidades!');
   return (
     <div className="wrapper">
       <div className="container">
         <div className="left-container">
           <img className="logo" src={images.city_logo} alt="Logo da cidade de Gravataí" />
           <div className="city-info">
-            <span className="title">Gravataí</span>
-            <span onClick={alertSign} className="">Visualizar outra cidade</span>
+            {/* <span className="title">Gravataí</span> */}
+            <Dropdown />
           </div>
         </div>
         <div className="right-container">
