@@ -3,10 +3,13 @@
 # dependencies
 node_modules
 
+# testing
+coverage
+
 # production
 build
 
 # misc
-index.generated.js
 .DS_Store
+.env
 npm-debug.log
