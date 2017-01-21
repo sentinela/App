@@ -15,10 +15,10 @@ const DailyValueTotal = (props) => {
       </div>
       <BarChart
         data={data.map((d) => { d.credor = d.credor.slice(0, 4); return d; })}
-        color="#b2f8ed"
         XAxisKey="credor"
         YAxisKey="valor"
         name="Total"
+        unit="R$"
       />
     </div>
   );

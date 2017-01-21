@@ -3,7 +3,7 @@ import React, { PropTypes } from 'react';
 import { BarChart, Bar, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const HorizontalBarChart = (props) => {
-  const { color, data, XAxisKey, YAxisKey, name } = props;
+  const { color, data, XAxisKey, YAxisKey, name, unit } = props;
   return (
     <ResponsiveContainer>
       <BarChart
@@ -11,7 +11,7 @@ const HorizontalBarChart = (props) => {
         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
       >
         <XAxis dataKey={XAxisKey} />
-        <YAxis />
+        <YAxis label={unit} />
         <CartesianGrid strokeDasharray="3 3" />
         <Tooltip />
         <Legend />
@@ -19,6 +19,7 @@ const HorizontalBarChart = (props) => {
           name={name}
           dataKey={YAxisKey}
           fill={color || '#8884d8'}
+          unit={unit}
         />
       </BarChart>
     </ResponsiveContainer>
@@ -31,6 +32,7 @@ HorizontalBarChart.propTypes = {
   XAxisKey: PropTypes.string,
   YAxisKey: PropTypes.string,
   name: PropTypes.string,
+  unit: PropTypes.string,
 };
 
 export default HorizontalBarChart;
