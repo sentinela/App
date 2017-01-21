@@ -18,12 +18,21 @@ const HorizontalBarChart = (props) => {
         <Bar
           name={name}
           dataKey={YAxisKey}
-          fill={color || '#8884d8'}
+          fill={color}
           unit={unit}
         />
       </BarChart>
     </ResponsiveContainer>
   );
+};
+
+HorizontalBarChart.defaultProps = {
+  data: [],
+  color: '#8884d8',
+  XAxisKey: '',
+  YAxisKey: '',
+  name: '',
+  unit: '',
 };
 
 HorizontalBarChart.propTypes = {

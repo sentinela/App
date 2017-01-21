@@ -11,12 +11,15 @@ class Dropdown extends Component {
     this.state = {
       isOpened: false,
       mockOptions: [{
+        id: '1',
         name: 'Cachoeirinha',
         selected: false,
       }, {
+        id: '2',
         name: 'Porto Alegre',
         selected: false,
       }, {
+        id: '3',
         name: 'Gravataí',
         selected: true,
       }],
@@ -32,9 +35,9 @@ class Dropdown extends Component {
     const { ...others } = this.props;
     return (
       <div {...others} className="dropdown-filter">
-        {options && options.map((o, k) => (
+        {options && options.map(o => (
           <div
-            key={k}
+            key={o.id}
             onClick={this.triggerMenu}
             className={classNames('item-filter', {
               'collapse-filter': !this.state.isOpened,

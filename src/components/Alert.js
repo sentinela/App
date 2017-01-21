@@ -23,4 +23,10 @@ Alert.propTypes = {
   onClick: PropTypes.func.isRequired,
 };
 
+Alert.defaultProps = {
+  success: true,
+  text: '',
+  strongText: '',
+};
+
 export default Alert;

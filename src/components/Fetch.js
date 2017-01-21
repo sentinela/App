@@ -13,6 +13,14 @@ export default class Fetch extends Component {
     urls: PropTypes.array,
   }
 
+  static defaultProps = {
+    onResponse: () => {},
+    onData: () => {},
+    onError: () => {},
+    children: () => {},
+    urls: [],
+  };
+
   static defaultProps = { method: 'get' }
 
   constructor(props) {

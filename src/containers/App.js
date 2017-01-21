@@ -13,6 +13,10 @@ class App extends Component {
     children: PropTypes.node,
   }
 
+  static defaultProps = {
+    children: {},
+  }
+
   constructor(props) {
     super(props);
     this.state = {

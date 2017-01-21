@@ -14,7 +14,7 @@
 - `npm test`
 
 ### Coverage Reporting
-- `npm test -- --coverage`
+- `npm run coverage`
 
 ### CI
 > WIP

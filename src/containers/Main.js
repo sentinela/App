@@ -7,6 +7,10 @@ class Main extends Component {
     children: PropTypes.node,
   }
 
+  static defaultProps = {
+    children: {},
+  }
+
   render() {
     const { children } = this.props;
     return (

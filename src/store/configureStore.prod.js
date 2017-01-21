@@ -6,7 +6,7 @@ import rootReducer from '../redux';
 const configureStore = preloadedState => createStore(
   rootReducer,
   preloadedState,
-  applyMiddleware(thunk, api)
+  applyMiddleware(thunk, api),
 );
 
 export default configureStore;

@@ -3,7 +3,7 @@ import React, { Component, PropTypes } from 'react';
 import Fetch from '../components/Fetch';
 import Spinner from '../components/Spinner';
 import DailyValueTotal from '../components/DailyValueTotal';
-import CardsContainer from '../components/CardsContainer';
+import CardsWrapper from '../components/CardsWrapper';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 
@@ -14,6 +14,10 @@ import './styles/DailyRate.less';
 class DailyRate extends Component {
   static propTypes = {
     children: PropTypes.node,
+  }
+
+  static defaultProps = {
+    children: {},
   }
 
   constructor(props) {
@@ -55,7 +59,7 @@ class DailyRate extends Component {
                 <div className="container">
                   <DailyValueTotal data={dailyValues} />
                   <div className="col-12">
-                    <CardsContainer />
+                    <CardsWrapper />
                   </div>
                 </div>
                 <Footer />

@@ -15,6 +15,12 @@ const Card = (props) => {
   );
 };
 
+Card.defaultProps = {
+  title: '',
+  describe: '',
+  size: '',
+};
+
 Card.propTypes = {
   title: React.PropTypes.string.isRequired,
   describe: React.PropTypes.string.isRequired,

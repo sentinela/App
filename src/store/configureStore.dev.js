@@ -11,8 +11,8 @@ const configureStore = (preloadedState) => {
     preloadedState,
     compose(
       applyMiddleware(thunk, api, createLogger()),
-      DevTools.instrument()
-    )
+      DevTools.instrument(),
+    ),
   );
 
   if (module.hot) {

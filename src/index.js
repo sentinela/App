@@ -12,7 +12,7 @@ const reactRoot = document.getElementById('root');
 if (process.env.NODE_ENV !== 'development') {
   render(
     <Root store={store} history={history} />,
-    reactRoot
+    reactRoot,
   );
 } else {
   const reactHotLoader = require('react-hot-loader');
@@ -21,7 +21,7 @@ if (process.env.NODE_ENV !== 'development') {
     <reactHotLoader.AppContainer>
       <Root store={store} history={history} />
     </reactHotLoader.AppContainer>,
-    reactRoot
+    reactRoot,
   );
 
   if (module.hot) {
@@ -32,7 +32,7 @@ if (process.env.NODE_ENV !== 'development') {
         <reactHotLoader.AppContainer>
           <NextApp store={store} history={history} />
         </reactHotLoader.AppContainer>,
-        reactRoot
+        reactRoot,
       );
     });
   }
