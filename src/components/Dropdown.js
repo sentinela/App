@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import classNames from 'classnames';
 import enhanceWithClickOutside from 'react-click-outside';
 
@@ -49,29 +49,4 @@ class Dropdown extends Component {
   }
 }
 
-// Dropdown.propTypes = {
-//   userName: PropTypes.string,
-// };
-
 export default enhanceWithClickOutside(Dropdown);
-
-// var $dropdown = $('.dropdown-filter');
-// var $cidadeSelecionada = $('#cidadeSelecionada');
-// var item = $('.item-filter');
-//
-// item.on('click', function(e) {
-//   e.preventDefault();
-//   e.stopPropagation();
-//   var antigaCidade = $cidadeSelecionada.html();
-//   $cidadeSelecionada.html(e.target.textContent);
-//   $(e.target).html(antigaCidade);
-//   initializeCharts();
-//   item.toggleClass('collapse-filter');
-//   if ($dropdown.hasClass('dropped-filter')) {
-//     $dropdown.toggleClass('dropped-filter');
-//   } else {
-//     setTimeout(function() {
-//       $dropdown.toggleClass('dropped-filter');
-//     }, 150);
-//   }
-// })
