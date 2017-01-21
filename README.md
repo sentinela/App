@@ -11,7 +11,7 @@
 `npm run build`
 
 ### Deploy :rowboat:
-> WIP
+> https://github.com/mars/create-react-app-buildpack#quick-start
 
 ### Design :lipstick:
 > WIP

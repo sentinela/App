@@ -2,15 +2,16 @@ import React, { Component, PropTypes } from 'react';
 
 import Fetch from '../components/Fetch';
 import Spinner from '../components/Spinner';
+import DailyValueTotal from '../components/DailyValueTotal';
+import CardsContainer from '../components/CardsContainer';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 import Api from '../utils/api';
 
-import './styles/App.less';
-import './styles/fluidable.less';
+import './styles/DailyRate.less';
 
-class App extends Component {
+class DailyRate extends Component {
   static propTypes = {
     children: PropTypes.node,
   }
@@ -20,6 +21,12 @@ class App extends Component {
     this.state = {
       shouldFetch: true,
     };
+  }
+
+  addComplaint = (data) => {
+    new Api().post('/Complaint', data)
+      .then(() => this.setState({ shouldFetch: true }))
+      .catch(err => this.setState({ err }));
   }
 
   render() {
@@ -46,7 +53,10 @@ class App extends Component {
               <div>
                 <Header />
                 <div className="container">
-                  Aqui viria os cards inicializadores
+                  <DailyValueTotal data={dailyValues} />
+                  <div className="col-12">
+                    <CardsContainer />
+                  </div>
                 </div>
                 <Footer />
               </div>
@@ -58,4 +68,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default DailyRate;
