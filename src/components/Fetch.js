@@ -6,15 +6,11 @@ import mockData from './mock.json';
 
 export default class Fetch extends Component {
   static propTypes = {
-    method: PropTypes.oneOf(['get', 'post', 'put', 'delete']),
-    urls: PropTypes.array.isRequired,
-    params: PropTypes.object,
-    headers: PropTypes.object,
-    body: PropTypes.object,
     onResponse: PropTypes.func,
     onData: PropTypes.func,
     onError: PropTypes.func,
     children: PropTypes.func,
+    urls: PropTypes.array,
   }
 
   static defaultProps = { method: 'get' }
@@ -58,7 +54,7 @@ export default class Fetch extends Component {
   fetch = () => {
     this.setState({ fetching: true }, () => {
       axios.all(['https://api.github.com/users/jeanbauer']) // this.props.urls.map(url => this.request(url))
-      .then((res) => {
+      .then(() => { // .then((responses) => {
         if (this.willUnmount) return;
 
         // Once we have the API up and running we have to delete this line and change l:61 to response instead of res

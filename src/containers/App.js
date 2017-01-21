@@ -5,8 +5,6 @@ import Spinner from '../components/Spinner';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 
-import Api from '../utils/api';
-
 import './styles/App.less';
 import './styles/fluidable.less';
 
@@ -39,8 +37,6 @@ class App extends Component {
                 </div>
               );
             }
-
-            const dailyValues = data[0];
 
             return (
               <div>

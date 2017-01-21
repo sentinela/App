@@ -19,8 +19,8 @@ export default class Api {
       Authorization: jsCookie.get('token'),
       'x-specialpurpose': 'sentinela',
     };
-    // const onUploadProgress = progressEvent => onProgress(progressEvent);
-    return axios({ baseURL, url, method, headers, data });
+    const onUploadProgress = progressEvent => onProgress(progressEvent);
+    return axios({ baseURL, url, method, headers, data, onUploadProgress });
   }
   requestAll(arr) {
     return axios.all(arr.map(req => this.request(req)));
