@@ -1,0 +1,128 @@
+@import '../../containers/styles/app-styles.less';
+
+@border-radius-size: 14px;
+@daily: #5C7AFF;
+
+.navigation-card-container  {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navigation-card {
+  cursor: pointer;
+  background: white;
+  width: 300px;
+  display: inline-block;
+  border-radius: @border-radius-size + 5;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  font: 14px/20px "Lato", Arial, sans-serif;
+}
+
+.navigation-card__image {
+  position: relative;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  border-top-left-radius: @border-radius-size;
+  border-top-right-radius: @border-radius-size;
+}
+
+.navigation-card__image--daily {
+  background: @daily;
+  img {
+    height: 120px;
+  }
+}
+
+.navigation-card__level {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.navigation-card__level--daily {
+  color: @daily;
+}
+
+.navigation-card__unit-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: -5px;
+}
+
+.navigation-card__unit-description {
+  padding: 20px;
+  margin-bottom: 10px;
+
+  span {
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+  }
+}
+
+.navigation-card__unit-stats--daily {
+  background: @daily;
+
+  .border {
+     border-right: 1px solid darken(@daily, 6%);
+  }
+}
+
+.navigation-card__unit-stats {
+
+  color: white;
+  font-weight: 700;
+  border-bottom-left-radius: @border-radius-size;
+  border-bottom-right-radius: @border-radius-size;
+
+  .one-third {
+    width: 33%;
+    float: left;
+    padding: 20px 15px;
+  }
+
+  .one-half {
+    width: 50%;
+    float: left;
+    padding: 20px 15px;
+  }
+
+  sup {
+    font-size: 45%;
+  }
+
+  .stat {
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .stat-label {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .no-border {
+    border-right: none;
+  }
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}

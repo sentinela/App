@@ -17,7 +17,7 @@
 - `npm run coverage`
 
 ### CI
-> WIP
+> WIP : https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#on-ci-servers
 
 ### Deploy :rowboat:
 > https://github.com/mars/create-react-app-buildpack#quick-start
