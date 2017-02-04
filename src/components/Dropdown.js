@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import classNames from 'classnames';
 import enhanceWithClickOutside from 'react-click-outside';
 
@@ -10,29 +10,16 @@ class Dropdown extends Component {
 
     this.state = {
       isOpened: false,
-      mockOptions: [{
-        id: '1',
-        name: 'Cachoeirinha',
-        selected: false,
-      }, {
-        id: '2',
-        name: 'Porto Alegre',
-        selected: false,
-      }, {
-        id: '3',
-        name: 'Gravataí',
-        selected: true,
-      }],
     };
   }
 
   handleClickOutside = () => this.setState({ isOpened: false });
   triggerMenu = () => this.setState({ isOpened: !this.state.isOpened });
-  switchCity = e => console.log('switchCity', e.target.textContent);
 
   render() {
-    const options = this.state.mockOptions;
+    const options = this.props.data;
     const { ...others } = this.props;
+
     return (
       <div {...others} className="dropdown-filter">
         {options && options.map(o => (
@@ -41,15 +28,21 @@ class Dropdown extends Component {
             onClick={this.triggerMenu}
             className={classNames('item-filter', {
               'collapse-filter': !this.state.isOpened,
-              'item-selected': o.selected,
+              'item-selected': this.props.selected === o.id,
             })}
           >
-            <span onClick={this.switchCity}>{o.name}</span>
+            <span onClick={this.props.onSelect}>{o.name}</span>
           </div>
         ))}
       </div>
     );
   }
 }
+
+Dropdown.propTypes = {
+  data: PropTypes.array.isRequired,
+  onSelect: PropTypes.func.isRequired,
+  selected: PropTypes.object.isRequired,
+};
 
 export default enhanceWithClickOutside(Dropdown);
