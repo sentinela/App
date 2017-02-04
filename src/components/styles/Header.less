@@ -50,6 +50,29 @@
   display: flex;
 }
 
+.info-container {
+  background: #5c7aff;
+  padding: 10px;
+  border-radius: 4px;
+  color: #FFF;
+  font-size: 12px;
+  position: relative;
+
+  &:after {
+    top: 7px;
+    right: -23px;
+    bottom: auto;
+    left: auto;
+    border-width: 10px 0 10px 25px;
+    border-color: transparent #5c7aff;
+    content: "";
+    position: absolute;
+    border-style: solid;
+    display: block;
+    width: 0;
+  }
+}
+
 .username {
   color: @primary;
   font-family: @font-primary;

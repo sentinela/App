@@ -6,12 +6,12 @@ import images from '../utils/images';
 import './styles/NavigationCard.less';
 
 const NavigationCard = (props) => {
-  const { title, subtitle, leftStat, rightStat } = props.data;
+  const { id, title, subtitle, leftStat, rightStat, icon } = props.data;
   return (
-    <div onClick={() => browserHistory.push(props.to)} className="navigation-card">
+    <div key={id} onClick={() => browserHistory.push(props.to)} className="navigation-card">
       <div className="navigation-card daily">
         <div className="navigation-card__image navigation-card__image--daily">
-          <img src={images.airplane} alt="Um avião em alusão as diárias" />
+          <img src={images[icon]} alt={`${icon} em alusão aos gastos desse tipo`} />
         </div>
         <div className="navigation-card__unit-name">{title}</div>
         <div className="navigation-card__unit-description">

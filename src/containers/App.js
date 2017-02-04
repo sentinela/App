@@ -28,19 +28,53 @@ class App extends Component {
   render() {
     const st = this.state;
 
-    const mock = {
+    const cards = [{
+      id: 1,
       title: 'Diárias',
+      to: '/dailyrates',
       subtitle: 'Acompanhe detalhadamente os gastos com diárias, através do nome do beneficiado e as datas',
       leftStat: {
-        value: 'R$ 2000,00',
+        value: 'R$ 2.000,00',
         label: 'Média mensal',
       },
       rightStat: {
-        value: 'R$ 5000,00',
+        value: 'R$ 5.000,00',
         label: 'Total anual',
       },
-      observacao: 'Estes dados são fictícios e não refletem ao gasto de Gravataí',
-    };
+      icon: 'airplane',
+      observacao: 'Estes dados são fictícios e não refletem ao gasto de Fictícia',
+    }, {
+      id: 2,
+      title: 'Licitações',
+      to: '/bids',
+      subtitle: `Visualize todas as modalidades, tipos de pregão, tipo do objeto.
+      Filtre por entidade, situação e veja os documentos anexados.`,
+      leftStat: {
+        value: 'R$ 20.000,00',
+        label: 'Média mensal',
+      },
+      rightStat: {
+        value: 'R$ 2 mi',
+        label: 'Total anual',
+      },
+      icon: 'checklist',
+      observacao: 'Estes dados são fictícios e não refletem ao gasto de Fictícia',
+    }, {
+      id: 3,
+      title: 'Compras',
+      to: '/acquirements',
+      subtitle: 'Veja o que a Câmara de Vereadores e a Prefeitura andam comprando e por quanto.',
+      leftStat: {
+        value: 'R$ 1.700,00',
+        label: 'Média mensal',
+      },
+      rightStat: {
+        value: 'R$ 14.000,00',
+        label: 'Total anual',
+      },
+      icon: 'cart',
+      observacao: 'Estes dados são fictícios e não refletem ao gasto de Fictícia',
+    }];
 
     return (
       <div>
@@ -63,7 +97,7 @@ class App extends Component {
                 <Header />
                 <div className="container sticky-footer">
                   <div className="navigation-card-container ">
-                    <NavigationCard data={mock} to="/dailyrate" />
+                    {cards.map(c => <NavigationCard data={c} to={c.to} />)}
                   </div>
                 </div>
                 <Footer />
