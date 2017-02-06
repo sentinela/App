@@ -32,7 +32,7 @@ Freepik
 by Freepik in monuments
 Pack: Lighthouse
 Published: 2 months ago (today: Feb 4, 2017)
-link: http://www.flaticon.com/free-icon/new-zealander_288846
+link: http://www.flaticon.com/free-icon/navigational_288843
 ```
 
 ```
